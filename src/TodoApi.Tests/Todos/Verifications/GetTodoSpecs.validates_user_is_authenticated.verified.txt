@@ -1,0 +1,21 @@
+﻿{
+  Version: 1.1,
+  Status: 401 Unauthorized,
+  Headers: {
+    Cache-Control: no-store, must-revalidate, no-cache,
+    Pragma: no-cache,
+    WWW-Authenticate: FakeBearer
+  },
+  Content: {
+    Headers: {
+      Content-Type: application/problem+json,
+      Expires: 0
+    },
+    Value: {
+      status: 401,
+      title: Unauthorized,
+      type: https://httpstatuses.io/401
+    }
+  },
+  Request: http://localhost/todos/1
+}

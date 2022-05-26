@@ -1,0 +1,38 @@
+﻿{
+  Version: 1.1,
+  Status: 422 Unprocessable Entity,
+  Headers: {
+    Cache-Control: no-store, must-revalidate, no-cache,
+    Pragma: no-cache
+  },
+  Content: {
+    Headers: {
+      Content-Type: application/problem+json,
+      Expires: 0
+    },
+    Value: {
+      errors: {
+        Title: [
+          'Title' must not be empty.
+        ]
+      },
+      status: 422,
+      title: One or more validation errors occurred.,
+      type: https://httpstatuses.io/422
+    }
+  },
+  Request: {
+    Method: POST,
+    Uri: http://localhost/todos,
+    Headers: {
+      Authorization: FakeBearer {"sub":"Test User","unique_name":"Test User","role":[]}
+    },
+    Content: {
+      Headers: {
+        Content-Length: 14,
+        Content-Type: application/json; charset=utf-8
+      },
+      Value: 
+    }
+  }
+}

@@ -1,0 +1,26 @@
+﻿{
+  Version: 1.1,
+  Status: 404 Not Found,
+  Headers: {
+    Cache-Control: no-store, must-revalidate, no-cache,
+    Pragma: no-cache
+  },
+  Content: {
+    Headers: {
+      Content-Type: application/problem+json,
+      Expires: 0
+    },
+    Value: {
+      status: 404,
+      title: Not Found,
+      type: https://httpstatuses.io/404
+    }
+  },
+  Request: {
+    Method: DELETE,
+    Uri: http://localhost/todos/1,
+    Headers: {
+      Authorization: FakeBearer {"sub":"Test User","unique_name":"Test User","role":[]}
+    }
+  }
+}

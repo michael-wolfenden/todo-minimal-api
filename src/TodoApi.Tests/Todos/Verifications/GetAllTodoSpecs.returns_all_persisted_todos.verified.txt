@@ -1,0 +1,35 @@
+﻿{
+  Version: 1.1,
+  Status: 200 OK,
+  Content: {
+    Headers: {
+      Content-Type: application/json; charset=utf-8
+    },
+    Value: [
+      {
+        createdBy: Test User,
+        createdOn: DateTime_1,
+        id: 1,
+        isCompleted: false,
+        lastModifiedBy: Test User,
+        lastModifiedOn: DateTime_1,
+        title: a todo
+      },
+      {
+        createdBy: Test User,
+        createdOn: DateTime_2,
+        id: 2,
+        isCompleted: false,
+        lastModifiedBy: Test User,
+        lastModifiedOn: DateTime_2,
+        title: another todo
+      }
+    ]
+  },
+  Request: {
+    Uri: http://localhost/todos,
+    Headers: {
+      Authorization: FakeBearer {"sub":"Test User","unique_name":"Test User","role":[]}
+    }
+  }
+}

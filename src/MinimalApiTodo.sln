@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo.Api", "TodoApi\TodoApi.csproj", "{DC2EE804-CC45-4236-A867-82BBBDCFDC63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{30B58EC9-D127-41D2-A806-539FAB0AC190}"
+	ProjectSection(SolutionItems) = preProject
+		..\docker-compose.yml = ..\docker-compose.yml
+		Directory.Build.props = Directory.Build.props
+		global.json = global.json
+		..\.gitattributes = ..\.gitattributes
+		..\.gitignore = ..\.gitignore
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApi.Tests", "TodoApi.Tests\TodoApi.Tests.csproj", "{37C8285E-D00F-431C-BE5D-1A3CA08244D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC2EE804-CC45-4236-A867-82BBBDCFDC63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC2EE804-CC45-4236-A867-82BBBDCFDC63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC2EE804-CC45-4236-A867-82BBBDCFDC63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC2EE804-CC45-4236-A867-82BBBDCFDC63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37C8285E-D00F-431C-BE5D-1A3CA08244D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37C8285E-D00F-431C-BE5D-1A3CA08244D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37C8285E-D00F-431C-BE5D-1A3CA08244D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37C8285E-D00F-431C-BE5D-1A3CA08244D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
