@@ -4,7 +4,7 @@ This repository is my attempt at implementing an API using the the new [Minimal 
 
 I wanted to investigate
 
-- [x] How to best organise the bootstrapping code in [Program.cs](src\TodoApi\Program.cs)
+- [x] How to best organise the bootstrapping code in [Program.cs](src/TodoApi/Program.cs)
 - [x] Use [Duende IdentityServer](https://duendesoftware.com/) for authentication
 - [x] Using [MediatR](https://github.com/jbogard/MediatR) and custom pipeline behaviours to handle cross cutting concerns
 - [x] Integration testing using Docker and [Verify.Http](https://github.com/VerifyTests/Verify) to generate snapshots of HTTP requests and response
