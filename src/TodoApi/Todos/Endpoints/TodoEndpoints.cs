@@ -55,7 +55,7 @@ public static class TodoEndpoints
         return app;
     }
 
-    private static async Task<IResult> GetAllTodos(IMediator mediator, ClaimsPrincipal principal) =>
+    private static async Task<IResult> GetAllTodos(IMediator mediator) =>
         Ok(await mediator.Send(new GetAllTodos.Request()));
 
     private static async Task<IResult> GetTodo(IMediator mediator, long id) =>
